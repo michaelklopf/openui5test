@@ -1,0 +1,28 @@
+{
+  "name": "openui5test",
+  "version": "0.0.1",
+  "authors": [
+    "Michael Klopf <klopf.michael@gmail.com>"
+  ],
+  "description": "Testing Open UI5 with Node",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bower",
+    "openui5"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}

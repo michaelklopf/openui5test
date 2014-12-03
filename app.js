@@ -40,7 +40,7 @@ app.use(flash());
 // application routes
 app.get('/', function(req, res) {
   res.contentType('text/html');
-  res.sendfile(__dirname + '/views/index.html');
+  res.sendfile(__dirname + '/dist/index.html');
 });
 
 // For seeing changes without stoping, starting the server, install nodemon globally npm install -g nodemon. Start your server with nodemon server.js

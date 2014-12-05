@@ -16,11 +16,9 @@ gulp.task('copy', function() {
   gulp.src('static/css/*.css')
     .pipe(gulp.dest('dist/css'));
 
-  gulp.src('templates/*.js')
+  gulp.src('static/js/**/*.*')
     .pipe(gulp.dest('dist/js'));
 
-  gulp.src('templates/*.xml')
-    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('default', ['browserify', 'copy']);

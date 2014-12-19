@@ -41,7 +41,7 @@ It looks into bower.json to load jQuery.
 This application makes use of Gulp. It's a build tool, to take the code from the source and place it in a folder called dist. The latter is used by Node. Gulp is used to link the modules (Browserify) and copy files into the dist folder. More complex tasks like uglifying and minifying files are possible. The commands for Gulp are saved in gulpfile.js.  
 
 In Windows PowerShell we can't use the watch feature of Gulp (i.e., I haven't looked into the issue yet), so you have to call Gulp manually after changes in the source. Type in the command  
-```gulp```  
+```gulp``` 
 
 Start the webserver with typing the following into the console:  
 ```node app.js```
